@@ -11,6 +11,8 @@ function usage
 HEREDOC
 }
 
+
+
 function download_glove
 {
     local download_path=$1

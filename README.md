@@ -8,9 +8,11 @@ Collection of scripts for obtaining NLP data and depolying environment
 | downloads | scripts to get common pretrained vectors and datasets |
 | pytorch_solutions | code segments to solve common issues in training process |
 
+
+
 ## Usage
 
-For any scripts, use following command to execute
+Before run any scripts, see the help text for how to correctly use
 ```
-bash <script_name>.sh param1 param2 ...
+bash <script_name>.sh --help
 ```

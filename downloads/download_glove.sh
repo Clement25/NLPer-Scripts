@@ -3,15 +3,11 @@
 function usage
 {
    cat << HEREDOC
-   Usage: ./download_data.sh [--path_dest STR] [--preproc STR]
-   arguments:
-     -p, --path_dest STR    destination path where to download the dataset
-     -r, --preproc STR      the preprocessed version of the main dataset
-     -h, --help             show this help message and exit
+   Usage: ./download_data.sh download_path preproc_dataset
+   download_path: The path to place downloaded files
+   preproc_dataset: (Dimension) Specification of glove data set, valid values are 50, 100, 200 and 300.
 HEREDOC
 }
-
-
 
 function download_glove
 {
